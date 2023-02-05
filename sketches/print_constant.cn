@@ -1,6 +1,6 @@
 construct std::vectools::nvec;
 
-/) assigns and constructs a variable
+// assigns and constructs a variable
 var:<str>:hello_world = "Hello, World!";
 
 // print that variable
