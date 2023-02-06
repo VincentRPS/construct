@@ -1,10 +1,11 @@
 // In construct, we provide a set of math tools and operations
 
-ft multiply_two<Number>(number: Number) {
+fn multiply_two<Number>(number: Number) {
     return number * 2;
 }
 
-ft divide_four<Number>(number: Number) {
+# you can also specify the bits of the Number
+fn divide_four<Number>(number: Number<b32>) {
     return number / 2;
 }
 
